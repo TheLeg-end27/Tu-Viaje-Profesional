@@ -1,0 +1,55 @@
+.legal {
+    * {
+        font-family: Quicksand;
+    }
+    h1, h2, h3 {
+        color: #333;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+    }
+    p {
+        margin-bottom: 0.5rem;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+    }
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .info-table {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .info-table td {
+        padding: 8px;
+    }
+    a {
+        color: #0066cc;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.close-button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #6c757d;
+}
