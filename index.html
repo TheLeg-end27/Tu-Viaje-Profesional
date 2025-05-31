@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+    <!-- Start cookieyes banner --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/b9708733a042c971863b2741/script.js"></script> <!-- End cookieyes banner -->
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Próximo Viaje Profesional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="./css/output.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon np/favicon.ico">
+    <style>
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .font-playfair {
+        font-family: 'Playfair Display', serif;
+      }
+
+      @font-face {
+      font-family: 'amandine-bold';
+      src: url('amandine-bold.otf') format('opentype');
+      font-weight: bold;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'amandine-regular';
+      src: url('amandine-regular.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+      }
+
+      @font-face {
+      font-family: 'amandine-light';
+      src: url('amandine-light.otf') format('opentype');
+      font-weight: lighter;
+      font-style: normal;
+      }
+
+      h1, h2 {
+        font-family: 'amandine-light';
+      }
+
+      header {
+        font-family: 'amandine-light';
+      }
+
+      * {
+        font-family: Quicksand;
+      }
+
+      #hero div {
+        font-family: 'amandine-light.otf' !important;
+      }
+
+      li {
+        font-size: 1.125rem;
+      }
+
+      @media (width < 48rem /* 768px */) { 
+        li {
+          font-size: 1rem; /* 1rem = 16px */;
+          line-height: var(--tw-leading, var(--text-base--line-height) /* calc(1.5 / 1) ≈ 1.5 */);
+        }
+      }
+
+      #hero h1 {
+        font-size: 2.5rem;
+      }
+      
+      @media (width < 48rem /* 768px */) { 
+        #hero h1 {
+          font-size: 1.875rem /* 1.875rem = 30px */;
+          line-height: var(--tw-leading, var(--text-3xl--line-height)); 
+        }
+      }
+
+    </style>
+  </head>
+  <body class="font-playfair text-[#4D2E1E]">
+     <!-- Header -->
+  <header class="w-full px-8 py-4 flex max-md:grid max-md:grid-cols-1 max-md:gap-2 items-center justify-between bg-[#f9f4ed] shadow-md backdrop-blur-sm fixed top-0 left-0 right-0 z-10">
+    <div><a href="/" class="text-3xl max-md:text-2xl font-bold tracking-widest uppercase" style="font-family: amandine-regular; letter-spacing:0.15em; color: #4D2E1E;">Tu Próximo Viaje Profesional</a></div>
+    <nav class="grid-cols-1 gap-2 max-md:gap-0 max-md:pl-0 items-center space-x-8 max-md:text-sm" style="letter-spacing:0.15em;">
+      <a href="#program" class="text-lg max-md:text-base uppercase tracking-widest hover:text-[#D8922F]" style="font-family: amandine-regular;">PROGRAMA</a>
+      <a href="#participants" class="text-lg max-md:text-base uppercase tracking-widest hover:text-[#D8922F]" style="font-family: amandine-regular;">PARTICIPANTES</a>
+      <a href="#us" class="text-lg max-md:text-base uppercase tracking-widest hover:text-[#D8922F]" style="font-family: amandine-regular;">PONENTES</a>
+      <a href="#practicalInfo" class="text-lg max-md:text-base uppercase tracking-widest hover:text-[#D8922F] min-sm:whitespace-nowrap" style="font-family: amandine-regular;">LOGÍSTICA</a>
+    </nav>
+  </header>
+    <!-- Hero Section -->
+  <section id="hero" class="relative flex flex-col items-start justify-center text-center text-white bg-cover bg-center py-32 mt-16 max-md:mt-24 bg-transparent" style="height: 90vh; background-image: url('main.jpg');">
+    <div class="absolute inset-0" style="background-color: rgba(77,46,30,0.25);"></div>
+      <div class="relative container text-left max-md:p-2 max-lg:mx-0 mx-8 w-2/4 max-xl:w-full p-8" style="background-color: rgba(228, 198, 166,0.5);">
+      <h1 class="mb-8 fade-in max-md:pt-12" style="font-family: amandine-bold;">Jornadas de reflexión para <br> mujeres profesionales</h1>
+      <p class="md:text-2xl max-md:text-lg tracking-wider mb-12 fade-in" style="font-family: amandine-bold;">Comparte un fin de semana inspirador con mujeres de trayectoria profesional comparable y en un momento vital similar al tuyo, para clarificar la próxima etapa de tu carrera y trazar los hitos que te llevarán a tus objetivos</p>
+      <h2 class="text-xl max-md:text-lg fade-in mb-8" style="font-family: amandine-light;"><strong>Del 3 al 5 de octubre de 2025 en la Sierra de Guadarrama, Provincia de Segovia</strong></h2>
+      <a href="#program" class="animate-bounce self-center">
+        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </a>
+    </div>
+  </section>
+    
+  <div id="program" class="py-16 text-center max-md:scroll-mt-24 scroll-mt-16 bg-[#f7ead9]">
+    <h1 class="text-5xl max-md:text-3xl font-bold mb-4 fade-in" style="letter-spacing:0.1em;">PROGRAMA</h1>
+  </div>
+    <!-- Objetivos -->
+    <section id="next" class="py-20 bg-[#f9f4ed]">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-5xl max-md:text-2xl font-bold mb-4 fade-in">Objetivos del Programa</h2>
+        <p class="mb-12 text-xl max-md:text-lg fade-in">El programa está diseñado para recorrer, con detenimiento y reflexión, cuatro etapas fundamentales para orientar y decidir tu futuro profesional:</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <div class="flex flex-col items-center fade-in">
+            <img src="adventure-compas-direction-svgrepo-com.svg" alt="Compass Icon" class="w-24 h-24 mb-2">
+            <h3 class="font-semibold text-xl max-md:text-lg mb-2">Orienta tu Brújula</h3>
+            <p class="text-lg max-md:text-base">Clarifica qué quieres y hacia dónde vas</p>
+          </div>
+          <div class="flex flex-col items-center fade-in">
+            <img src="backpack-bag-holidays-svgrepo-com.svg" alt="Backpack Icon" class="w-24 h-24 mb-2">
+            <h3 class="font-semibold text-xl max-md:text-lg mb-2">Prepara tu Mochila</h3>
+            <p class="text-lg max-md:text-base">Identifica y desarrolla tus recursos y activos profesionales</p>
+          </div>
+          <div class="flex flex-col items-center fade-in">
+            <img src="goal-mountain-flag-achievement-svgrepo-com.svg" alt="Flag Icon" class="w-24 h-24 mb-2">
+            <h3 class="font-semibold text-xl max-md:text-lg mb-2">Identifica la Meta</h3>
+            <p class="text-lg max-md:text-base">Explora posibles opciones y decide el mejor camino</p>
+          </div>
+          <div class="flex flex-col items-center fade-in">
+            <img src="adventure-journey-location-svgrepo-com.svg" alt="Journey Icon" class="w-24 h-24 mb-2">
+            <h3 class="font-semibold text-xl max-md:text-lg mb-2">Inicia la Travesía</h3>
+            <p class="text-lg max-md:text-base">Pasa a la acción</p>
+          </div>
+        </div>
+        <a href="#basis">
+          <div class="self-center">
+            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </section>
+  
+    <section id="basis" class="flex relative py-32 bg-cover max-md:scroll-mt-24 scroll-mt-16" style="background-image: url(reunion.png);">
+      <div class="absolute inset-0 bg-contain" style="background-image: linear-gradient(to bottom, transparent, rgba(77,46,30,0.8));"></div>
+        <div class="px-4 max-md:px-2">
+          <div class="flex justify-center ml-16 max-md:ml-0 text-left max-w-4xl bg-center text-[#4D2E1E] p-8 max-md:p-4 fade-in" style="flex-direction: column; background-color: rgba(247,234,217,0.8);">
+            <div class="flex flex-col">
+              <h2 class="text-center text-5xl max-md:text-2xl font-bold mb-4 fade-in">Base y dinámicas del programa</h2>
+            </div>
+            <ul class="text-lg max-md:text-sm">
+              <li class="mb-4">• La estructura y contenido del programa se apoyan en <strong>investigaciones y estudios sobre el liderazgo y las fortalezas</strong>, 
+                así como en aportes de la <strong>psicología y la neurociencia </strong> sobre la identidad profesional y el autoconocimiento. 
+                Además, integra <strong>técnicas de coaching </strong> y metodología de la <strong>ciencia de la decisión</strong>, una rama de las ciencias del comportamiento. 
+                Como complemento, de manera previa al programa y durante el mismo, se llevarán a cabo diversos ejercicios y tests que contribuirán a 
+                construir los recursos e hitos de cada etapa.</li>
+              <li class="mb-4">• El programa incorpora una <strong>variedad de dinámicas</strong> probadas en programas similares, que —como sabemos por nuestra amplia experiencia— 
+                permiten generar un entorno de confianza libre de riesgo. Este espacio facilita <strong>un intercambio rico y fluido de experiencias e ideas</strong>, 
+                así como la compartición de inquietudes, dudas e interrogantes. 
+                De forma colaborativa y estructurada, a la vez que relajada e inspirada, avanzaremos de manera tangible hacia la clarificación de nuestro viaje profesional.</li>
+              <li class="mb-4">• Además, las conexiones que surgen entre las participantes pueden, si existe una voluntad compartida, 
+                transformarse en relaciones singulares con vocación de permanencia en el tiempo.</li>
+            </ul>
+            <a href="#contentTime">
+              <div class="self-center">
+                <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Itinerary Section -->
+    <section id="contentTime" class="py-20 bg-[#f9f4ed] max-md:scroll-mt-24 scroll-mt-16">
+      <div class="w-full mx-auto px-4">
+        <h2 class="text-5xl max-md:text-2xl font-bold mb-4 text-center fade-in">Contenido y horario del Programa</h2>
+        <p class="text-center max-md:text-sm mt-4 mb-8"><em>*Sujeto a cambios de horario</em></p>
+        <div class="relative flex flex-col max-md:justify-center items-center">
+          <!-- Vertical timeline line -->
+          <div class="absolute h-full w-1 bg-[#D8922F] left-1/2 transform -translate-x-1/2"></div>
+          <div class="grid grid-cols-1 gap-12 w-full max-w-6xl visible">
+            <!-- Timeline Point 1 (Left side) -->
+            <div class="relative flex max-md:grid max-md:grid-rows-1 max-md:mx-auto max-md:gap-8 items-center max-md:justify-items-center fade-in">
+              <div class="w-1/2 pr-8 max-md:pr-0 text-right max-md:text-left max-md:w-11/12">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                  <h3 class="text-xl font-bold">-</h3>
+                  <p class="text-xl max-md:text-base font-bold">Preparación previa</p>
+                  <ul class="mt-2 text-lg max-md:text-sm text-[#4D2E1E]">
+                    <li>Cuestionario Strengths Profile</li>
+                    <li>Ejercicio Life Map</li>
+                    <li>Reflexión decisión estratégica</li>
+                    <li>Lecturas opcionales</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="max-md:hidden absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-[#F8C658] rounded-full"></div>
+              <div class="relative w-1/2 fade-in max-md:pl-0 pl-8 max-md:w-11/12"><img src="candelabro.png" class="rounded-lg py-auto bg-contain w-full max-h-96"></div>
+            </div>
+            <!-- Timeline Point 2 (Right side) -->
+            <div class="relative flex max-md:grid max-md:grid-rows-1 max-md:mx-auto max-md:gap-8 items-center max-md:justify-items-center fade-in">
+              <div class="w-1/2 fade-in pr-8 max-md:pr-0 max-md:w-11/12"><img src="fotos retreat/20250317_115648.jpg" class="rounded-lg py-auto bg-contain w-full max-h-96"></div>
+              <div class="w-1/2 pl-8 max-md:pl-0 text-right max-md:w-11/12">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                  <h3 class="text-xl max-md:text-base font-bold">Viernes, 3 oct</h3>
+                  <table class="w-full border-collapse mt-4">
+                    <tbody>
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top text-center whitespace-nowrap">
+                          <p class="text-lg max-md:text-sm font-bold">19.00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm text-[#4D2E1E] pl-4">
+                            <li>Llegadas a La Arena</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 text-center max-md:text-center align-top">
+                          <p class="text-lg max-md:text-sm font-bold">19:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm text-[#4D2E1E] pl-4">
+                            <li>Cóctel de bienvenida e inicio del programa</li>
+                            <li>Vista general del programa</li>
+                            <li>Dinámicas para conocernos</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 text-center align-top">
+                          <p class="text-lg max-md:pl-0 max-md:text-sm font-bold">21:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm text-[#4D2E1E] pl-4">
+                            <li>Cena</li>
+                            <li>Bebidas y momento distendido</li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="absolute left-1/2 transform max-md:hidden -translate-x-1/2 w-4 h-4 bg-[#F8C658] rounded-full"></div>
+            </div>
+            <!-- Timeline Point 1 (Left side) -->
+            <div class="relative flex max-md:grid max-md:grid-rows-1 max-md:mx-auto max-md:gap-8 items-center max-md:justify-items-center fade-in">
+              <div class="w-1/2 pr-8 max-md:pr-0 text-right max-md:w-11/12">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                  <h3 class="text-xl max-md:text-base font-bold">Sábado 4 oct</h3>
+                  <table class="w-full border-collapse mt-4">
+                    <tbody>
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top whitespace-nowrap text-center">
+                          <p class="text-lg max-md:text-sm font-bold">8:00-9:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Desayuno</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold whitespace-nowrap">9:30-12:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>
+                              <strong>Introducción del programa:</strong>
+                              <ul>
+                                <li>Pautas acordadas para desarrollar la jornada con éxito</li>
+                                <li>Contexto para entender nuestra toma decisiones en cada etapa profesional</li>
+                              </ul>
+                              <strong>Comienza Tu Próximo Viaje Profesional:</strong>
+                              <ul>
+                                <li>
+                                  <strong>1. Orienta tu brújula:</strong>
+                                  <ul>
+                                    <li>Conoce tu propósito y tus valores</li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold whitespace-nowrap">12:00-12:15h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>
+                              Pausa y tentempié
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold whitespace-nowrap">12:15-14:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>
+                              <ul>
+                                <ul>
+                                  <li>Trabaja tu identidad de cara a tu nueva etapa</li>
+                                  <li>Reflexiona sobre lo que te importa</li>
+                                </ul>
+                                <strong>2. Prepara tu mochila:</strong>
+                                <ul>
+                                  <li>Profundiza en tu autoconocimiento</li>
+                                  <li>Identifica las fortalezas que vas a necesitar para tu próxima etapa</li>
+                                  <li>Recuenta los activos profesionales de que dispones</li>
+                                </ul>
+                              </ul>
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold whitespace-nowrap">14:00-15:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Comida y descanso</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold whitespace-nowrap">15:30-16:45h </p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <strong>3. Identifica tus metas:</strong>
+                            <ul>
+                              <li>Formula tu decisión estratégica</li>
+                              <li>Juicios sobre tus opciones e identificación de sesgos cognitivos</li>
+                            </ul>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold whitespace-nowrap">16:45-17:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="text-lg max-md:text-sm pl-4">
+                            <li>
+                              Pausa y tentempié
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold whitespace-nowrap">17:00-18:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                              <li>Define tus criterios para decidir lo que quieres</li>
+                              <li>Decide tu próximo paso profesional</li>
+                          </ul>
+                        </td>
+                      </tr>
+
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top text-center">
+                          <p class="text-lg max-md:text-sm font-bold">18:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Fin del programa profesional</li>
+                          </ul>
+                        </td>
+                      </tr>
+
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold text-center">19:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Actividad de grupo (caminata, bicicleta de montaña, pádel)</li>
+                          </ul>
+                        </td>
+                      </tr>
+
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold text-center">20:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Cóctel</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold text-center">21:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Cena</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 pr-6 align-top">
+                          <p class="text-lg max-md:text-sm font-bold text-center">22:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Bebidas y música</li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 max-md:hidden bg-[#F8C658] rounded-full"></div>
+              <div class="w-1/2 fade-in pl-8 max-md:pl-0 max-md:w-11/12"><img src="billar_alt.png" class="rounded-lg py-auto bg-contain w-full max-h-96"></div>
+            </div>     
+            <div class="relative flex max-md:grid max-md:grid-rows-1 max-md:mx-auto max-md:gap-8 items-center max-md:justify-items-center fade-in">
+              <div class="w-1/2 fade-in pr-8 max-md:pr-0  max-md:w-11/12"><img src="main2-1.png" class="rounded-lg py-auto bg-contain w-full"></div>
+              <div class="w-1/2 pl-8 max-md:pl-0 text-right  max-md:w-11/12">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                  <h3 class="text-xl max-md:text-base font-bold">Domingo 5 oct</h3>
+                  <table class="w-full border-collapse mt-4">
+                    <tbody>
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap text-center">
+                          <p class="text-lg max-md:text-sm font-bold">8:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Desayuno</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap">
+                          <p class="text-lg max-md:text-sm font-bold">8:45h-9:45h </p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Opcional: sesión de mindfulness matutina (por confirmar)</li>
+                          </ul>
+                        </td>
+                      </tr>
+
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap text-center">
+                          <p class="text-lg max-md:text-sm font-bold">9:45-11:45h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>
+                              <strong>Continuación de Tu Viaje Profesional:</strong>
+                              <ul>
+                                <li>
+                                  <strong>4. Inicia la travesía:</strong>
+                                  <ul>
+                                    <li>Consejos y experiencias prácticas para ponerte en marcha</li>
+                                    <li>Diseña tu marca personal para tu próxima etapa</li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap text-center">
+                          <p class="text-lg max-md:text-sm font-bold">11:45-12:00h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>
+                              Café y tentempié
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap">
+                          <p class="text-lg max-md:text-sm font-bold">12:00-13:50h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                              <li>Trabaja y planifica tu red de contactos estratégica</li>
+                              <li>Crea tu plan de acción</li>
+                          </ul>
+                        </td>
+                      </tr>
+
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap">
+                          <p class="text-lg max-md:text-sm font-bold">13:50-14:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                              <li>Cierre del programa y próximos pasos</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap text-center">
+                          <p class="text-lg max-md:text-sm font-bold">14:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Comida</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      
+                      <tr class="border-b border-gray-200">
+                        <td class="py-4 align-top whitespace-nowrap text-center">
+                          <p class="text-lg max-md:text-sm font-bold">15:30h</p>
+                        </td>
+                        <td class="py-4 align-top">
+                          <ul class="max-md:text-sm pl-4">
+                            <li>Despedida</li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 max-md:hidden bg-[#F8C658] rounded-full"></div>
+            </div>     
+          </div>
+        </div>
+      </div>
+      <div class="mt-4 m-auto justify-center flex self-center"><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/3RcvVScfvacW2PWJA"><button class="text-xl transform transition bg-[#f7ead9] hover:bg-[#e4c6a6] hover:scale-105 text-[#4D2E1E] border-2 border-[#4D2E1E] font-bold py-4 px-8 rounded-3xl">APÚNTATE</button></a></div>
+    </section>
+  
+    <!-- Post-Program Section !-->
+    <section id="post-program" class="relative py-32 bg-cover" style="background-image: url(fotos\ retreat/20250317_124248.jpg);">
+      <div class="absolute inset-0" style="background-image: linear-gradient(to top, transparent, rgba(77,46,30,0.8));"></div>
+        <div class="container mx-auto text-center">
+          <div class="max-w-3xl mx-auto p-10 max-md:p-4 shadow-md fade-in block" style="background-color: rgba(247,234,217,0.8);">
+            <h2 class="text-5xl max-md:text-2xl font-bold mb-8 text-center fade-in">Post-programa</h2>
+            <ul class="text-left max-md:text-base mb-8" style="font-family: Quicksand;">
+              <li class="mb-2">• Encuentro presencial organizado a los tres meses en Madrid (coste por&nbsp;determinar).</li>
+              <li class="">• Executive Coaching individual opcional (honorarios no incluidos).</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+  
+  <div id="participants" class="py-16 text-center max-md:scroll-mt-24 scroll-mt-16 bg-[#f7ead9]">
+    <h1 class="text-5xl max-md:text-3xl font-bold mb-4 fade-in" style="letter-spacing:0.1em;">PARTICIPANTES</h1>
+  </div>
+    <!-- Profile Section -->
+    <section id="profile" class="py-20 bg-[#f9f4ed]">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-5xl max-md:text-2xl font-bold mb-4 fade-in">Perfil ideal de las participantes</h2>
+        <p class="text-xl max-md:text-lg mb-10 fade-in">Nos dirigimos a mujeres profesionales con más de 20-25 años de trayectoria profesional que sean:</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-4">
+          <div class="pl-6 pr-6 fade-in">
+            <h3 class="text-3xl max-md:text-lg font-bold mb-4">1. Directivas</h3>
+            <p class="text-xl max-md:text-base">Con responsabilidades de liderazgo o gestión en empresas u otras organizaciones.</p>
+          </div>
+          <div class="pl-6 pr-6 fade-in">
+            <h3 class="text-3xl max-md:text-lg font-bold mb-4">2. Emprendedoras </h3>
+            <p class="text-xl max-md:text-base">Con trayectoria profesional sólida.</p>
+          </div>
+          <div class="pl-6 pr-6 fade-in">
+            <h3 class="text-3xl max-md:text-lg font-bold mb-4">3. Profesionales independientes </h3>
+            <p class="text-xl max-md:text-base">Con reconocimiento en su campo y una práctica profesional establecida.</p>
+          </div>
+        </div>
+        <div class="p-4 mb-4 m-auto bg-[#e4c6a6]" style="width: fit-content;">
+          <p class="mb-2 text-xl max-md:text-lg"><strong>Plazas limitadas a 20 participantes.</strong> ¡Apúntate cuanto antes para reservar tu plaza!</p>
+          <p class="mb-2 text-xl max-md:text-lg">Fecha límite para registrar solicitudes: <strong>30 de junio de 2025.</strong></p>
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/3RcvVScfvacW2PWJA"><button class="text-xl mb-2 transform transition bg-[#f7ead9] hover:bg-[#e4c6a6] hover:scale-105 text-[#4D2E1E] border-2 border-[#4D2E1E] font-bold py-4 px-8 rounded-3xl">APÚNTATE</button></a>
+        <a href="#rightForMe" class="animate-bounce self-center">
+          <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </a>
+      </div>
+    </section>
+    
+    <!-- Is this right for me Section -->
+  <section id="rightForMe" class="flex relative py-24 bg-cover max-md:scroll-mt-24 scroll-mt-16" style="background-image: url(main2.png);">
+    <div class="absolute inset-0" style="background-image: linear-gradient(to bottom, transparent, rgba(77,46,30,0.8));"></div>
+      <div class="px-4 max-md:px-2">
+        <div class="flex justify-center ml-16 max-md:ml-0 text-left text-[#4D2E1E] max-w-4xl bg-transparent p-10 max-md:p:0 fade-in" style="background-color: rgba(247,234,217,0.8); flex-direction: column;">
+          <h2 class="text-5xl max-md:text-2xl font-bold mb-8 fade-in">¿Es este programa para mí?</h2>
+          <ul class="text-lg max-md:text-sm">
+            <li class="mb-4">Si estás planteándote <strong>cuál podría ser tu próxima etapa profesional en un horizonte de uno a cinco años,</strong> y aún no tienes claridad sobre cómo afrontarla, este programa es para ti. Durante esta jornada te reunirás con otras mujeres profesionales de valía, que al igual que tú, se encuentran en <strong>momentos de reflexión o transición</strong>. Juntas exploraréis, de forma holística y estructurada, los posibles caminos de tu desarrollo profesional.</li>
+      
+            <li class="mb-4">A lo largo del fin de semana utilizarás <strong>metodologías prácticas y efectivas</strong>, desde dinámicas de coaching grupal y ejercicios de visualización, hasta innovadores tests sobre tus fortalezas y preferencias. Todo ello complementado con herramientas basadas en la <strong>ciencia de las decisiones estratégicas</strong>, que te ofrecerán un enfoque claro y convincente para ayudarte a tomar decisiones sobre vuestro futuro profesional y personal.</li>
+            
+            <li class="mb-4"><strong>Si buscas respuestas para tu próximo horizonte profesional</strong>, en un entorno natural, relajado y compartido con mujeres de tu calibre y con tus mismas inquietudes, esta jornada está hecha para ti.</li>
+          </ul>
+          <p class="text-lg max-md:text-base mb-2"><strong>Un fin de semana especial que, sin duda, se quedará contigo para siempre.</strong></p>
+          <a href="#benefits" class="self-center">
+            <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </a>
+        </div>
+    </div>
+  </section>
+
+    <!-- Is this right for me Section 
+  <section id="right-for-me" class="relative py-32 bg-cover" style="background-image: url(fotos\ retreat/20250317_124248.jpg);">
+    <div class="absolute inset-0" style="background-image: linear-gradient(to top, transparent, rgba(77,46,30,0.8));"></div>
+      <div class="container mx-auto px-4 text-center">
+        <div class="max-w-4xl mx-auto bg-[#FBEAC5] p-10 shadow-md fade-in block">
+          <h2 class="text-5xl font-bold mb-8 text-center fade-in">Qué te llevarás si vienes a la jornada</h2>
+          <ul class="text-left ml-36 text-lg mb-8">
+            <li class="mb-2">• Claridad sobre tu próxima etapa profesional</li>
+            <li class="mb-2">• Un plan de acción personalizado</li>
+            <li class="mb-2">• Conexiones significativas con mujeres profesionales como tú</li>
+            <li class="mb-2">• Técnicas y herramientas para tomar decisiones con confianza</li>
+          </ul>
+          <button class="mx-auto text-xl transform transition bg-transparent hover:bg-[#fff3d8] hover:scale-105 text-[#4D2E1E] border border-[#4D2E1E] font-bold py-4 px-8 rounded-sm">APÚNTATE</button>
+        </div>
+    </div>
+  </section> -->
+  <!-- Is this right for me Section -->
+  <section id="benefits" class="py-20 bg-[#f9f4ed] max-md:scroll-mt-24 scroll-mt-16">
+    <div class="container flex mx-auto px-4 text-center" style="flex-direction: column;">
+      <h2 class="text-4xl max-md:text-2xl font-bold pb-12 fade-in">Qué te llevarás si vienes a las jornadas</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+        <div class="flex flex-col items-center fade-in">
+          <h3 class="font-semibold text-xl max-md:text-lg mb-2"><span style="color: rgb(248, 198, 88)">✔</span> Claridad sobre tu próxima etapa profesional</h3>
+        </div>
+        <div class="flex flex-col items-center fade-in">
+          <h3 class="font-semibold text-xl max-md:text-lg mb-2"><span style="color: rgb(248, 198, 88)">✔</span> Un plan de acción personalizado</h3>
+        </div>
+        <div class="flex flex-col items-center fade-in">
+          <h3 class="font-semibold text-xl max-md:text-lg mb-2"><span style="color: rgb(248, 198, 88)">✔</span> Conexiones significativas con mujeres profesionales como tú</h3>
+        </div>
+        <div class="flex flex-col items-center fade-in">
+          <h3 class="font-semibold text-xl max-md:text-lg mb-2"><span style="color: rgb(248, 198, 88)">✔</span> Técnicas y herramientas para tomar decisiones con confianza</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="relative py-28 fade-in max-md:bg-contain" style="background-image: url('Logo\ definitivo\ sm.jpg'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0" style="background-color: rgba(77,46,30,0.3);"></div>
+    <div class="relative container mx-auto px-4 text-center text-white py-20">
+      <h2 class="text-4xl max-md:text-2xl font-bold mb-6">Regálate este espacio y tiempo para ti: tu futuro profesional y tú os lo merecéis.</h2>
+      <p class="italic text-xl max-md:text-base" >¿Tienes dudas? ¡Escríbenos y estaremos encantadas de ayudarte!</p>
+      <p class="text-xl max-md:text-base mb-8">Contacto: <a class="underline" href="mailto:info@tuviajeprofesional.com">info@tuviajeprofesional.com</a></p>
+      <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/3RcvVScfvacW2PWJA"><button class="text-xl transform transition bg-[#f7ead9] hover:bg-[#e4c6a6] hover:scale-105 text-[#4D2E1E] border-2 border-[#4D2E1E] font-bold py-4 px-8 rounded-3xl">APÚNTATE</button></a>
+    </div>
+  </section>
+
+  <div id="us" class="py-16 text-center max-md:scroll-mt-24 scroll-mt-16 bg-[#f7ead9]">
+    <h1 class="text-5xl max-md:text-3xl font-bold mb-4 fade-in" style="letter-spacing:0.1em;">PONENTES</h1>
+  </div>
+
+  <!-- Presentation Section -->
+  <div class="py-20 grid grid-cols-2 items-center gap-4 max-md:gap-8 max-md:grid-cols-1 bg-[#f9f4ed]">
+    <div class="inset-0 p-6 self-center m-auto bg-[#e4c6a6]" style="max-width: 40rem;">
+      <img src="Foto NPy SJ retocada.JPG">
+    </div>
+    <div class="p-4 text-lg text-left mr-16 max-md:mr-4 max-md:ml-4" >
+      <div class="flex items-center mb-2">
+        <span class="" style="font-family: Libre Baskerville, sans-serif; font-size: 8rem; line-height: 0; display: inline-block; margin-right: 0.5rem;">“</span>
+      </div>
+      <p class="mb-2">Organizamos este retiro porque nos inspira profundamente trabajar con mujeres profesionales llenas de energía, con ganas de seguir creciendo y en busca de respuestas significativas sobre su desarrollo y futuro profesional. Sabemos que tomar decisiones de cambio en la carrera no es fácil: requiere claridad, valentía y un entorno que facilite la reflexión honesta. </p>
+      <p class="mb-2">Para nosotras, es un privilegio y una responsabilidad crear espacios de confianza entre mujeres, donde se comparten experiencias, se abren nuevas perspectivas y nacen conexiones auténticas. Hemos acompañado a miles de mujeres en el desarrollo de sus carreras y sabemos lo valioso que es tener un momento para reflexionar y dar forma al siguiente paso.</p>
+      <p class="mb-4">Acompañar estos procesos nos llena profesionalmente y nos reafirma en el valor de impulsar momentos clave en la trayectoria de otras mujeres.</p>
+      <h1 class="text-3xl text-right" style="font-family: Alex Brush;">Natalia y Sylvia</h1>
+    </div>
+  </div>
+  
+  <section id="about-us" class="py-20 bg-[#f7ead9]">
+    <h2 class="text-5xl max-md:text-2xl font-bold mb-12 text-center fade-in" style="color:#4D2E1E;">Organizado y dirigido por:</h2>
+    <div class="container ml-auto flex flex-col md:flex-row items-center content-evenly">
+      <div class="md:w-1/2 md:pr-8 max-md:p-4 mb-8 md:mb-0 fade-in">
+        <h2 class="text-4xl max-md:text-lg font-bold mb-4">Natalia Peraita | <a target="_blank" href="https://www.linkedin.com/in/nataliamartinezperaita/" class="underline text-3xl max-md:text-lg">LinkedIn</a></h2>
+        <p class="text-xl max-md:text-base mb-4"><strong>Professional Certified Coach (PCC)</strong> por el <strong>International Coach Federation</strong> (ICF), consultora en liderazgo con más de 25 años de experiencia profesional internacional. Fundadora de su propia boutique de búsqueda de ejecutivos en Londres, <strong>NMP Associates</strong>, especializada en soluciones de búsqueda, evaluación y asesoramiento de talento ejecutivo. Posee un profundo conocimiento del entorno corporativo, especialmente en el sector financiero y la banca de inversión, habiendo iniciado su carrera en <strong>Dresdner Kleinwort Benson</strong> y, posteriormente, en el <strong>Banco Europeo para la Reconstrucción y el Desarrollo</strong> (EBRD) en Londres.</p>
+        <p class="text-xl max-md:text-base mb-4">Está certificada en <strong>Coaching de Equipos</strong> por el Academy of Executive Coaching (AoEC), <strong>Coaching Sistémico y Constelaciones</strong> con John Whittington, <strong>Neuroscience for Leadership</strong> por MIT Sloan, y en <strong>Cultural Transformation Tools</strong> (CTT) por el Barrett Cultural Values Center, entre otras. Licenciada con honores en Economía – <strong>University College London</strong> (UCL). <strong>Posgrado en Estudios Europeos y Economía</strong> – <strong>London School of Economics</strong> (LSE). Fluidez en español, francés e inglés; ofrece coaching a nivel internacional en los tres idiomas.</p>
+      </div>
+      <div class="md:w-1/3 max-md:p-4 pr-4 mb-8 ml-4 max-md:ml-0 fade-in">
+        <img src="NATALIA M-104.jpg" class="w-full h-3/4 rounded">
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-[#e4c6a6]">
+    <div class="container ml-auto flex flex-col md:flex-row items-center">
+      <div class="md:w-1/3 max-md:p-4 pr-4 mb-8 md:mb-0 fade-in mr-4">
+        <img src="SYLVIA 2.jpg" class="w-full h-3/4 rounded">
+      </div>
+      <div class="md:w-1/2 max-md:p-4 fade-in justify-center">
+        <h2 class="text-4xl max-md:text-xl font-bold mb-4">Sylvia Jarabo | <a target="_blank" href="https://www.linkedin.com/in/sylvia-jarabo/" class="underline text-3xl max-md:text-lg">LinkedIn</a></h2>
+        <p class="text-xl max-md:text-base mb-4">Con una trayectoria de más de 30 años, es actualmente Socia Directora de <a target="_blank" class="underline" href="https://www.promisingwomen.com/"><strong>Promising Women</strong></a>, empresa que fundó en 2018 y que está dedicada a la investigación, desarrollo y avance del talento femenino en el ámbito profesional.</p>
+  
+        <p class="text-xl max-md:text-base mb-4">Inició su carrera como consultora senior en <strong>McKinsey & Company</strong>, trabajando en varios países, y más adelante formó parte del Comité Ejecutivo de <strong>Vodafone España</strong>, donde lideró las áreas de Atención al Cliente y Canal Online. Su recorrido profesional incluye también experiencia en consultoría en telecomunicaciones e internet y emprendimiento digital.</p>
+           
+        <p class="text-xl max-md:text-base mb-4">Actualmente compagina su labor en Promising Women con su participación como <strong>consejera en diversas empresas y organizaciones</strong>. Es experta en el desarrollo de la mujer profesional y autora del libro <em>"Más talento, más directivas: las barreras que limitan el talento de la mujer profesional y cómo solucionarlas"</em> (Ed. Pirámide, 2023).</p>
+           
+        <p class="text-xl max-md:text-base mb-4">Es Licenciada en Ciencias Económicas y Empresariales por <strong>CUNEF</strong>, donde fue reconocida con el <strong>VIII Premio Carlos Cubillo</strong> por su expediente académico. Cursó el <strong>MBA Internacional en IE Business School</strong>, donde se graduó como número uno de su promoción. Es <strong>Executive Coach certificada</strong> por el Teachers' College de la <strong>Universidad de Columbia</strong> y cuenta con un <strong>Executive Master en Behavioural Science</strong> por la <strong>London School of Economics</strong>.</p>
+      </div>
+    </div>
+  </section>  
+
+  <div id="practicalInfo" class="py-16 text-center max-md:scroll-mt-24 scroll-mt-16 bg-[#f7ead9]">
+    <h1 class="text-5xl max-md:text-3xl font-bold mb-4 fade-in" style="letter-spacing:0.1em;">LOGÍSTICA</h1>
+  </div>
+
+  <!-- Six-Step Sign-Up Process Section -->
+  <section id="signupProcess" class="bg-[#f9f4ed]" style="padding-top: 5rem;">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl max-md:text-2xl font-bold mb-12 fade-in" style="color:#4D2E1E;">Cómo funciona el proceso</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <div class="text-4xl font-bold mb-4" style="color:#D8922F;">1</div>
+          <p class="text-lg" style="color:#4D2E1E;">Apúntate para que podamos tener en cuenta tu candidatura.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <div class="text-4xl font-bold mb-4" style="color:#D8922F;">2</div>
+          <p class="text-lg" style="color:#4D2E1E;">En caso de que tu perfil se adapte al contenido del programa, te enviaremos un enlace para que realices la reserva de un 10% del importe como señal.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <div class="text-4xl font-bold mb-4" style="color:#D8922F;">3</div>
+          <p class="text-lg" style="color:#4D2E1E;">Una vez realices esta reserva, tienes hasta el 30 de junio para realizar el resto del pago. Consulta nuestra política de cancelación <a href="#cancellationPolicy" class="underline">aquí</a>.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <div class="text-4xl font-bold mb-4" style="color:#D8922F;">4</div>
+          <p class="text-lg" style="color:#4D2E1E;">Te enviaremos un cuestionario breve para preparar tu estancia y contenidos en la jornada.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <div class="text-4xl font-bold mb-4" style="color:#D8922F;">5</div>
+          <p class="text-lg" style="color:#4D2E1E;">Te enviaremos materiales e instrucciones detalladas para la preparación del programa a principios de septiembre.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in" >
+          <div class="text-4xl font-bold mb-4" style="color:#D8922F;">6</div>
+          <p class="text-lg" style="color:#4D2E1E;">¡Te esperamos el viernes 3 de octubre en La Arena!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Event Information Section -->
+  <section id="event-info" class="py-20 bg-[#f9f4ed]">
+    <div class="container mx-auto px-4 justify-center">
+      <h2 class="text-4xl max-md:text-2xl font-bold mb-12 text-center fade-in" style="color:#4D2E1E;">Información práctica sobre el evento:</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div class="bg-[#f7ead9] p-6 shadow-md fade-in text-lg max-md:text-base">
+          <p class="mb-2 text-2xl max-md:text-xl" style="color:#4D2E1E;"><strong>¿Cuándo?</strong></p>
+          <p class="mb-2 text-xl max-md:text-lg" style="color:#4D2E1E;"><strong>Octubre 2025:</strong></p>
+          <p class="mb-2" style="color:#4D2E1E;"><strong>Empieza:</strong> viernes 3 a las 19:30h</p>
+          <p class="mb-2" style="color:#4D2E1E;"><strong>Termina:</strong> domingo 5 a las 15.30h</p>
+          <p class="mb-2 text-2xl max-md:text-xl" style="color:#4D2E1E;"><strong>¿Dónde?</strong></p>
+          <p class="mb-4" style="color:#4D2E1E;"><a class="underline" target="_blank" href="https://www.chateauform.com/es/casa/la-arena/"><strong>La Arena, de Chateauform</strong></a>, una acogedora casa de campo situada al borde del Parque 
+            Natural de la Sierra de Guadarrama, a tan solo una hora en coche desde Madrid. Un entorno 
+            natural que proporciona un completo cambio de aires para concentrarte plenamente en los 
+            objetivos del programa.</p>
+        </div>
+        <div class="bg-transparent flex items-center justify-center flex-col rounded-lg shadow-md fade-in">
+            <iframe width="100%" height="100%" class="w-full h-full rounded" src="https://youtube.com/embed/AOv3Fiyifu0?autoplay=1&mute=1"></iframe>
+        </div>
+        <!--<div class="fade-in flex"><img src="bed.png" class="rounded-lg align-middle m-auto bg-cover"></div> -->
+      </div>
+      <div class="grid grid-cols-2 max-md:grid-cols-1 max-md:gap-0 gap-8 justify-evenly bg-transparent p-6 mb-16 rounded-lg shadow-md fade-in">
+        <div class="mr-8 max-md:mr-4 text-lg max-md:text-base" style="flex-basis: 100%;">
+          <p class="mb-2 text-2xl max-md:text-lg" style="color:#4D2E1E;"><strong>¿Qué incluye?</strong></p>
+          <p class="mb-2" style="color:#4D2E1E;">En este programa tienes la tranquilidad del “todo incluido”.</p>
+          <p class="mb-2 text-lg max-md:text-base underline decoration-[#f9b322]" style="color:#4D2E1E;"><strong>Programa profesional</strong></p>
+          <p class="mb-2" style="color:#4D2E1E;">Viernes recibimiento por la tarde, sábado ―mañana y tarde― y domingo por la mañana.</p>
+          <p class="mb-2 text-lg max-md:text-base underline decoration-[#f9b322]" style="color:#4D2E1E;"><strong>Programa Social</strong></p>
+          <ul class="mb-2">
+            <li>•	Actividad grupal el sábado por la tarde (caminata, mountain bike, etc.).</li>
+            <li>•	Mindfulness matutino el domingo.</li>
+            <li>•	Copas y música por la noche.</li>
+          </ul>
+          <p class="mb-2 underline text-lg max-md:text-base decoration-[#f9b322]" style="color:#4D2E1E;"><strong>Alojamiento</strong></p>
+          <p class="mb-2" style="color:#4D2E1E;"> Dos noches, con elección de habitación 
+            doble o individual. </p>  
+        </div>
+        <div style="flex-basis: 100%;">
+          <p class="mb-2 max-md:text-base text-lg underline decoration-[#f9b322]" style="color:#4D2E1E;"><strong>Momentos de relax</strong></p>
+          <p class="mb-2 text-lg max-md:text-base" style="color:#4D2E1E;"> Piscina, pádel, baloncesto, paseos, 
+            bicicletas de montaña, ping-pong, 
+            karaoke, billar, futbolín, juegos de mesa… </p>
+          <p class="mb-2 underline max-md:text-base text-lg decoration-[#f9b322]" style="color:#4D2E1E;"><strong>Momentos Gourmet</strong></p>
+          <ul class="mb-2">
+            <li>•	Cóctel de bienvenida y cena del viernes.</li>
+            <li>•	Las tres comidas (desayuno, comida y cena) del sábado.</li>
+            <li>•	Desayuno y comida del domingo.</li>
+            <li>•	Todas las comidas y cenas incluyen refrescos, vinos y aguas minerales.</li>
+            <li>•	Momentos de respiración entre las sesiones de trabajo: tentempié y merienda.</li>
+            <li>•	Bebidas durante todo el día: agua, zumos, refrescos, café, té, infusiones, chocolate caliente...</li>
+            <li>•	La libertad de servirse cervezas o copas hasta las 2am.</li>
+          </ul>
+          <p class="mb-2 text-2xl max-md:text-lg" style="color:#4D2E1E;"><strong>¿Qué no incluye?</strong></p>
+          <p class="mb-2 text-lg max-md:text-base" style="color:#4D2E1E;">Desplazamientos, traslados hasta la Arena.</pbutton>
+        </div>
+      </div>
+      <div class="m-auto justify-center flex self-center"><a target="_blank" rel="noopener noreferrer" href="https://forms.gle/3RcvVScfvacW2PWJA"><button class="text-xl transform transition bg-[#f7ead9] hover:bg-[#e4c6a6] hover:scale-105 text-[#4D2E1E] border-2 border-[#4D2E1E] font-bold py-4 px-8 rounded-3xl">APÚNTATE</button></a></div>
+    </div>
+  </section>  
+
+  <div class="flex bg-[#e4c6a6] py-8 justify-center">
+    <div class="mx-2 align-middle max-sm:mt-4" style="max-height: 12rem; max-width: 12rem; width: fit-content;"><img src="Logo definitivo sm.jpg" class="h-full rounded-2xl"></div>
+    <div class="px-2">
+      <p class="text-3xl max-md:text-xl mb-4" style="color:#4D2E1E;"><strong>Precio</strong> <span class="text-lg max-md:text-base">(IVA incluido)</span></p>
+      <table class="w-full border-collapse mt-4 text-lg max-md:text-base">
+        <tbody>
+          <tr class="border-b border-black">
+            <td class="py-4 align-top text-left whitespace-nowrap">
+              <p class="text-lg max-md:text-base">Habitación individual</p>
+            </td>
+            <td class="py-4 align-top text-center">
+              <ul class="max-md:text-sm text-[#4D2E1E] font-bold">
+                <li>1.650€</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="py-4 text-left align-top">
+              <p class="text-lg max-md:text-base max-md:pl-0">Habitación doble*</p>
+            </td>
+            <td class="py-4 align-top text-center">
+              <ul class="text-[#4D2E1E] font-bold">
+                <li>1.400€</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="mb-2 text-sm" style="color:#4D2E1E;">*existe un límite de 6 habitaciones dobles, que se asignarán según el orden de inscripción</p>
+    </div>
+  </div>
+        
+  <!-- FAQ Section -->
+  <section class="py-20 bg-[#f9f4ed]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl max-md:text-2xl font-bold mb-8 text-center fade-in">Preguntas frecuentes</h2>
+      <div class="max-w-3xl mx-auto">
+        <div class="space-y-6 text-lg max-md:text-base text-left">
+          <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+            <button type="button" class="w-full flex justify-between items-center faq-question">
+              <span class="text-xl max-md:text-lg font-bold">¿Cuál es el horario?</span>
+              <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+            <div class="mt-4 text-[#4D2E1E] hidden">
+              La jornada empezará el viernes a las 19:30h y terminará el domingo a las 15:30h, después de la comida. Por la mañana empezaremos entre las 9:00h y las 9:30h y por las noches…el límite lo pones tú.
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md fade-in" >
+            <button type="button" class="w-full flex justify-between items-center faq-question">
+              <span class="text-xl max-md:text-lg font-bold">¿Qué pasa si no puedo asistir a última hora? </span>
+              <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+            <div class="mt-4 text-[#4D2E1E] hidden">
+              Mira nuestra <a href="#cancellationPolicy" class="underline">política de cancelación</a> donde te explicamos qué sucedería en este caso.
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+            <button type="button" class="w-full flex justify-between items-center faq-question">
+              <span class="text-xl max-md:text-lg font-bold">¿Puedo ir sola o es mejor ir con alguien?</span>
+              <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+            <div class="mt-4 text-[#4D2E1E] hidden">
+              Como tú quieras, cualquier opción es buena. Si vas acompañada y quieres compartir habitación con esa amiga, 
+              nos lo explicarás en el formulario de inscripción. Si vas sola, pero te gustaría compartir la habitación con otra persona, 
+              escríbenos y trataremos de encontrarte una participante afín. De todas formas, recuerda que el número de habitaciones compartidas es de 6, 
+              por lo cual una vez agotadas por orden de inscripción, solo quedarán las habitaciones individuales.
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+            <button type="button" class="w-full flex justify-between items-center faq-question">
+              <span class="text-xl max-md:text-lg font-bold">Solo podría asistir parcialmente, ¿aun así puedo ir?</span>
+              <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+            <div class="mt-4 text-[#4D2E1E] hidden">
+              Podrías, pero sería una pena porque el programa tiene una línea argumental donde cada sesión construye sobre la sesión anterior.
+              A pesar de que puedas asistir parcialmente, te recomendamos apuntarte a la siguiente convocatoria del evento para que puedas disfrutar de la jornada completa.
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+            <button type="button" class="w-full flex justify-between items-center faq-question">
+              <span class="text-xl max-md:text-lg font-bold">¿Tengo que llevar algo en especial?</span>
+              <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+            <div class="mt-4 text-[#4D2E1E] hidden">
+              Sí, en caso de que finalmente acudas, tienes que traerte tu ordenador personal. Aparte de esto, el programa te pone todo lo necesario. 
+              No obstante, también tendrías que traer los ejercicios que se requieren como preparación para la jornada.
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+            <button type="button" class="w-full flex justify-between items-center faq-question">
+              <span class="text-xl max-md:text-lg font-bold">¿Qué tipo de vestimenta está recomendada?</span>
+              <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+            <div class="mt-4 text-[#4D2E1E] hidden">
+              La jornada tendrá lugar en una casa rural en la naturaleza, en un entorno tranquilo y campestre. Te sugerimos venir con ropa cómoda durante el día, 
+              y también puedes traer algo más deportivo si quieres participar en la caminata o en otras propuestas al aire libre. 
+              Por la noche, quizá te puede apetecer arreglarte un poco más, siempre en un estilo informal y relajado.
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+            <button type="button" class="w-full flex justify-between items-center faq-question">
+              <span class="text-xl max-md:text-lg font-bold">Tengo restricciones alimentarias</span>
+              <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+            <div class="mt-4 text-[#4D2E1E] hidden">
+              No te preocupes, si finalmente acudes, en el formulario de inscripción te preguntaremos esto y lo tendremos en cuenta.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cancellation Policy Section -->
+  <section id="cancellationPolicy" class="pb-20 bg-[#f9f4ed] max-md:scroll-mt-24 scroll-mt-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl max-md:text-2xl font-bold mb-12 text-center fade-in" style="color:#4D2E1E;">Política de cancelación</h2>
+      <div class="max-w-3xl text-lg max-md:text-base mx-auto bg-white p-6 rounded-lg shadow-md fade-in">
+        <p class="mb-2" style="color:#4D2E1E;">1.	El pago de señal del 10% del importe del programa no es reembolsable. No obstante, podría ser utilizado en una edición posterior del programa en caso de que esta tenga lugar.</p>
+        <p class="mb-2" style="color:#4D2E1E;">2.	Una vez realizado el pago completo del programa (100%), se aplicarán los siguientes costes de cancelación:</p>
+        <ul class="list-inside mb-2" style="color:#4D2E1E;">
+          <li class="mb-2">a. Hasta el 2 de julio de 2025 (3 meses antes del inicio del evento): cancelación sin coste.</li>
+          <li class="mb-2">b. Del 3 de julio al 2 de septiembre de 2025, ambos inclusive (entre 3 meses y 1 mes antes del inicio del evento): 50% de costes de cancelación.</li>
+          <li>c. A partir del 3 de septiembre de 2025 (1 mes antes del inicio del evento): 100% de costes de cancelación.</li>
+        </ul>
+        <p class="mb-2 font-bold">Excepción a la política de cancelación</p>
+        <p class="mb-2" style="color:#4D2E1E;">Los costes de cancelación no se aplicarán si la persona inscrita consigue a otra participante que ocupe su lugar. En ese caso, la nueva participante deberá abonar el importe completo del programa, y una vez recibido dicho pago, se procederá a la devolución del importe satisfecho por la participante original.</p>
+        <p style="color:#4D2E1E;">En caso de cancelación, por favor escríbenos un correo electrónico a <a href="mailto:info@tuviajeprofesional.com" class="font-bold underline">info@tuviajeprofesional.com</a>. La fecha que conste en la recepción del correo será considerada como la <strong>fecha oficial de solicitud de cancelación</strong>, y determinará el importe aplicable según la política descrita anteriormente.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-[#e4c6a6] py-12">
+    <div class="px-8 grid grid-cols-2 max-md:gap-4 gap-48">
+      <!-- Policies & Connect -->
+      <div class="max-md:text-sm text-left flex-col ml-auto">
+        <h2 class="text-lg max-md:text-base font-bold mb-2">LEGAL</h2>
+        <a onclick="window.privacyDialog.showModal();" class="hover:underline mb-2">Política de privacidad de datos<br></a>
+        <a onclick="window.legalDialog.showModal();" class="hover:underline max-md:pr-0 mb-2">Aviso Legal<br></a>
+        <a onclick="window.cookieDialog.showModal();" class="hover:underline">Política de cookies</a>
+      </div>
+      <div>
+        <h2 class="font-bold mb-2">CONTACTO</h2>
+        <a class="underline max-md:text-sm" href="mailto:info@tuviajeprofesional.com">info@tuviajeprofesional.com</a>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm">
+      © Tu Viaje Profesional. All Rights Reserved 2025.
+    </div>
+  </footer>
+
+  <dialog class="p-8 max-md:p-4 m-auto rounded-2xl max-md:max-w-11/12 max-w-9/12 max-h-10/12" id="privacyDialog">
+      <div class="max-w-6xl mx-auto legal">
+        <div style="display: flex;"><button class="ml-auto close-button" style="font-size: 3rem;" onclick="privacyDialog.close();">x</button></div>
+        <h1 class="text-xl">Política de Privacidad</h1>
+
+        <h2>1. INFORMACIÓN DEL TITULAR</h2>
+        <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, a continuación, se exponen los datos identificativos del Titular:</p>
+
+        <table>
+            <tr>
+                <th>Web:</th>
+                <td><a href="https://www.tuviajeprofesional.com">https://www.tuviajeprofesional.com</a></td>
+            </tr>
+            <tr>
+                <th>Titular:</th>
+                <td>Promising Women S.L.</td>
+            </tr>
+            <tr>
+                <th>Domicilio:</th>
+                <td>Calle San Enrique de Ossó, 8, 28055 Madrid, España</td>
+            </tr>
+            <tr>
+                <th>CIF:</th>
+                <td>B88014188</td>
+            </tr>
+            <tr>
+                <th>Teléfono:</th>
+                <td>+34 91 625 51 44</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><a href="mailto:info@promisingwomen.com">info@promisingwomen.com</a></td>
+            </tr>
+        </table>
+
+        <h2>2. POLÍTICA DE PRIVACIDAD</h2>
+        <p>PROMISING WOMEN se compromete a proteger la privacidad de los usuarios que accedan a esta web y/o cualquiera de sus servicios. La utilización de la web y/o cualquiera de los servicios ofrecidos por PROMISING WOMEN, implica la aceptación por parte del usuario de las disposiciones contenidas en la presente Política de Privacidad y que sus datos personales sean tratados según se estipula. Por favor, tenga en cuenta que, aunque pueda haber enlaces de nuestra web a otras webs, esta Política de Privacidad no se aplica a otras compañías u organizaciones a las que la web esté redirigida. PROMISING WOMEN no controla el contenido de las webs de terceros ni acepta ningún tipo de responsabilidad por el contenido o las políticas de privacidad de estos sitios web.</p>
+
+        <h2>3. CUESTIONES SOBRE PRIVACIDAD</h2>
+        <p>En cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, (RGPD) y de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de derechos digitales, le ofrecemos la siguiente información sobre el tratamiento de los datos personales que usted pueda facilitarnos:</p>
+
+        <h3>¿Quién es el responsable del tratamiento de sus datos?</h3>
+        <p>PROMISING WOMEN. Nuestros datos se encuentran en la parte superior de este aviso legal:</p>
+        <ul>
+            <li>Tratamos la información que se nos facilita se utiliza para prestar y facturar nuestros servicios y productos.</li>
+            <li>Si nos da su consentimiento también podemos tratar sus datos para enviarle información sobre productos, servicios o actividades.</li>
+        </ul>
+
+        <h3>¿Durante cuánto tiempo conservaremos sus datos?</h3>
+        <p>Los datos personales proporcionadas se conservarán durante el tiempo estrictamente necesario. Es decir, mientras sea usuario de nuestros servicios o quiera seguir recibiendo información.</p>
+
+        <h3>¿Qué legitimación tenemos para poder tratar sus datos?</h3>
+        <p>1. La base de la legitimación del tratamiento de Datos Personales será la que resulte de la <span class="underline">relación contractual o precontractual</span> entre el usuario y Promising Women, la laboral o cualquier otra que se requiera para el tratamiento de datos, tales como el <span class="underline">consentimiento expreso</span>.</p>
+        
+        <p>Se entenderá que la información enviada por menores de 14 años lo ha sido por el consentimiento de sus representantes legales. De no ser así el/la representante legal deberá informarnos en cuanto sea posible.</p>
+        
+        <p>2. <span class="underline">Cumplimiento con las leyes aplicables o ejecución de un contrato</span>. En circunstancias específicas, es posible que necesitemos procesar sus datos personales para cumplir con una ley / regulación relevante, o para cumplir con nuestras obligaciones en virtud de un contrato al cual usted está sujeto.</p>
+
+        <h3>¿A quién comunicaremos sus datos?</h3>
+        <p>Los destinatarios de la información contenida en los ficheros serán los servicios operativos y comerciales de PROMISING WOMEN, formando parte de unas bases de datos que posibilite a la empresa realizar las acciones mencionadas necesarias. Dichas bases de datos se alojarán en los servidores de la empresa PROMISING WOMEN, contratados con la empresa Arsys Internet, S.L.U. con domicilio en C/ Chile nº 54, 26007, Logroño (La Rioja), España.</p>
+
+        <h3>Cesión o comunicación de datos de carácter personal.</h3>
+        <p>PROMISING WOMEN, le comunica que los datos de carácter personal o información proporcionados por la persona entrevistada, encuestada o que haya respondido a formularios, no serán cedidos a terceros, salvo lo descrito en el párrafo anterior "Destinatarios de los datos" o por obligación legal.</p>
+
+        <h3>¿Qué derechos tiene el usuario y cómo ejercerlos?</h3>
+        <p>Cualquier usuario tiene derecho a obtener confirmación sobre si estamos tratando o no sus datos personales.</p>
+        <ul>
+            <li>También tienen derecho a retirar el consentimiento prestado anteriormente.</li>
+            <li>Las personas interesadas tienen derecho a acceder a sus datos personales, así como a solicitar la rectificación de los datos inexactos o solicitar la supresión de los mismos cuando, entre otros motivos, los datos ya no sean necesarios para las finalidades para las cuales se recabaron.</li>
+            <li>En determinadas circunstancias las personas interesadas podrán solicitar la limitación del tratamiento de sus datos; en este caso únicamente los conservaremos para el ejercicio o la defensa de reclamaciones.</li>
+            <li>En determinadas circunstancias y por motivos relacionados con su situación particular, el/la interesado/a podrá oponerse al tratamiento de sus datos. En este caso dejaremos de tratarlos, excepto por motivos legítimos imperiosos o para el ejercicio o la defensa de posibles reclamaciones.</li>
+            <li>Las personas interesadas también tienen derecho a la portabilidad de sus datos.</li>
+            <li>Finalmente, los/las interesados/as tienen derecho a presentar una reclamación ante la Autoridad de Control competente.</li>
+        </ul>
+        
+        <p>Puede ejercer los derechos anteriores enviándonos un escrito adjuntando una copia de un documento que lo identifique a nuestro domicilio o correo electrónico (que aparecen al principio del presente Aviso Legal).</p>
+
+        <h3>¿Cómo hemos obtenido sus datos?</h3>
+        <p>Para navegar por la web <a href="https://www.tuviajeprofesional.com/">https://www.tuviajeprofesional.com/</a> no es necesario que facilite ningún dato personal, excepto en los siguientes casos, siempre de forma voluntaria:</p>
+        <ul>
+            <li>Al contactar a través del formulario de solicitud de inscripción (nombre y apellidos, email, teléfono, datos profesionales y atitudinales, dirección IP)</li>
+            <li>Al enviar un correo electrónico.</li>
+        </ul>
+        
+        <p>En particular se requiere el perfil público de Linkedin (en el formulario de inscripción), y en caso de no disponer de este o estar no actualizado, se requiere el CV de la solicitante al programa, que se habrá enviado voluntariamente por ella por correo electrónico.</p>
+        
+        <p>Adicionalmente, en caso de acudir al programa, la participante completará una breve encuesta digital enviada por correo electrónico, de manera voluntaria donde requeriremos información adicional para gestionar adecuadamente su estadía durante el programa (p.ej. restricciones alimentarias, tipo de habitación, etc.)</p>
+
+        <h3>¿Qué datos tratamos?</h3>
+        <p>Los datos que tratamos oscilan entre las siguientes categorías:</p>
+        <ul>
+            <li>Datos de carácter identificativo.</li>
+            <li>Direcciones postales o electrónicas.</li>
+            <li>Otros datos solicitados en nuestros formularios.</li>
+        </ul>
+        
+        <p>Los datos son limitados, dado que únicamente tratamos los datos necesarios para la prestación de nuestros servicios y la gestión de nuestra actividad.</p>
+
+        <h3>¿Con qué finalidad tratamos sus datos?</h3>
+        <p>Detallamos a continuación las finalidades de los tratamientos de datos llevados a cabo por alguno o todos de los Responsables de Tratamiento enumerados anteriormente:</p>
+        
+        <p>En el caso de datos de contacto como nombres y apellidos, correo electrónico o teléfono, <span class="underline">éstos serán utilizados para</span> (1) enviar confirmación sobre la inscripción al programa o, en su caso, informar de que no ha sido posible incluir la solicitud en esta edición, (2) comunicación de información sobre el programa o futuros programas, (3) información sobre servicios prestados solicitados por la persona interesada, (4) comunicación personalizada sobre servicios que así lo requieran solicitados por la persona interesada (p.ej. coaching).</p>
+        
+        <p>PROMISING WOMEN constata explícitamente que no se utilizarán los datos para envío de ninguna forma de publicidad de terceros.</p>
+
+        <h2>4. ¿QUÉ MEDIDAS DE SEGURIDAD APLICAMOS?</h2>
+        <p>Aplicamos las medidas de seguridad establecidas en el artículo 32 del RGPD, por lo tanto, hemos adoptado las medidas de seguridad necesarias para garantizar un nivel de seguridad adecuado al riesgo del tratamiento de los datos que realizamos, con mecanismos que nos permiten garantizar la confidencialidad, integridad, disponibilidad y resiliencia permanente de los sistemas y servicios de tratamiento.</p>
+        
+        <p>Algunas de estas medidas son:</p>
+        <ul>
+            <li>Información de las políticas de tratamiento de los datos al personal.</li>
+            <li>Realización de copias de seguridad periódicas.</li>
+            <li>Control de acceso a los datos.</li>
+            <li>Procesos de verificación, evaluación y valoración regulares.</li>
+        </ul>
+
+        <h2>5. EXCLUSION DE RESPONSABILIDAD</h2>
+        <p>PROMISING WOMEN actúa con la máxima diligencia posible para que los datos y la información que ofrece en su sitio web esté actualizada en todo momento. No obstante, en caso de alguna posible falta de actualización o algún error involuntario, no se hace responsable de ello, reservándose el derecho a modificar estos contenidos en cualquier momento. PROMISING WOMEN no será responsable de la información que se pueda obtener a través de enlaces incluidos en el sitio web.</p>
+        
+        <p>Las relaciones comerciales entre clientes se regirán por las condiciones generales que, si fuera necesario, se establecerían por PROMISING WOMEN en un documento específico a este efecto, o para los pactos concretos que se puedan acordar con los clientes.</p>
+
+        <h2>6. POLÍTICA DE INFORMACIÓN Y PUBLICIDAD COMERCIAL</h2>
+        <p>PROMISING WOMEN se compromete a través de este medio a no realizar publicidad engañosa. A estos efectos, por lo tanto, no serán considerados como publicidad engañosa los errores formales o numéricos que puedan encontrarse a lo largo del contenido de las distintas secciones de la Web, producidos como consecuencia de un mantenimiento y/o actualización incompleta de la información contenida en estas secciones. PROMISING WOMEN, como consecuencia de lo dispuesto en este apartado, se compromete a corregirlo tan pronto como tenga conocimiento de dichos errores.</p>
+        
+        <p>PROMISING WOMEN se compromete a no remitir comunicaciones comerciales sin identificarlas como tales, conforme a lo dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y de comercio electrónico. A estos efectos no será considerado como comunicación comercial toda la información que se envíe a los clientes de PROMISING WOMEN que tenga por finalidad el mantenimiento de la relación contractual existente entre cliente y PROMISING WOMEN, así como el desempeño de las tareas de información y otras actividades propias del servicio que el cliente tiene contratado.</p>
+        
+        <p>En el caso de recibir comunicaciones por estos medios (correos electrónicos, mensajes de respuesta automatizada de formularios, y otros sistemas de comunicación) le informamos que los mensajes se dirigen exclusivamente a su destinatario y pueden contener información privilegiada o confidencial. Si no es vd. el destinatario indicado, queda notificado de que la utilización, divulgación y/o copia sin autorización está prohibida en virtud de la legislación vigente.</p>
+        
+        <p>De conformidad con lo establecido en la Ley 34/2002 de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, y la Directiva 2002/58/CE le comunicamos que en el supuesto de que no desee recibir comunicaciones e informaciones de índole comercial mediante este sistema de comunicación electrónica, nos lo indique por esta misma vía indicando en el asunto BAJA COMUNICACIONES para que sus datos personales sean dados de baja de nuestra base de datos. Su solicitud será accionada en un plazo de 10 días desde su envío. En el supuesto de que no recibamos contestación expresa por su parte, entenderemos que acepta y autoriza que nuestra empresa siga realizando las referidas comunicaciones.</p>
+
+        <h2>7. CONDICIONES DE VENTA</h2>
+        <p>En caso de que una usuaria o potencial clienta esté interesada en el programa, deberá contactar con nosotros a través del formulario de solicitud de inscripción puesto a su disposición, llamarnos por teléfono o escribirnos un correo electrónico.</p>
+        
+        <p>Una vez confirmada su inscripción a un evento, formación o servicio, se procederá al cobro correspondiente a través de medios de pago comúnmente aceptados.</p>
+        
+        <p>Una vez realizado el pago para el programa aplicarán las Condiciones de Cancelación especificadas en la web <a href="https://www.tuviajeprofesional.com/">https://www.tuviajeprofesional.com/</a>.</p>
+
+        <h2>8. CONDICIONES DE USO. JURISDICCIÓN Y LEYES APLICABLES.</h2>
+        <p>El uso de este sitio web implica la aceptación plena de los términos del presente aviso legal. El presente Aviso Legal y todas las relaciones que se establezcan entre PROMISING WOMEN el Usuario de la Web y sus servicios se regirán por lo establecido en la legislación española.</p>
+
+        <p><em>- Última revisión: abril 2025</em></p>  
+      </div>
+      <div class="flex justify-center"><a class="text-xl transform transition bg-[#f7ead9] hover:bg-[#e4c6a6] hover:scale-105 text-[#4D2E1E] border border-[#4D2E1E] font-bold py-4 px-8 rounded-3xl" onclick="privacyDialog.close();">Cerrar</a></div>
+  </dialog>
+
+  <dialog class="p-8 max-md:p-4 m-auto max-md:max-w-11/12 max-w-9/12 max-h-10/12 rounded-2xl" id="legalDialog">
+    <div style="display: flex;"><button class="ml-auto close-button" style="font-size: 3rem;" onclick="legalDialog.close();">x</button></div>
+      <div class="container mx-auto legal">
+        <h1 class="text-xl">Aviso Legal</h1>
+
+        <h2>1. INFORMACIÓN DEL TITULAR</h2>
+        <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, a continuación, se exponen los datos identificativos del Titular:</p>
+
+        <table>
+            <tr>
+                <th>Web:</th>
+                <td><a href="https://www.tuviajeprofesional.com/">https://www.tuviajeprofesional.com/</a></td>
+            </tr>
+            <tr>
+                <th>Titular:</th>
+                <td>Promising Women, S.L. (en adelante <strong>PROMISING WOMEN</strong>)</td>
+            </tr>
+            <tr>
+                <th>Domicilio:</th>
+                <td>C/San Enrique de Ossó, 8, Madrid 28055.</td>
+            </tr>
+            <tr>
+                <th>C.I.F:</th>
+                <td>B88014188</td>
+            </tr>
+            <tr>
+                <th>Teléfono:</th>
+                <td>+34 91 6255144</td>
+            </tr>
+            <tr>
+                <th>Correo electrónico:</th>
+                <td><a href="mailto:info@promisingwomen.com">info@promisingwomen.com</a></td>
+            </tr>
+            <tr>
+                <th>Datos registrales:</th>
+                <td>Inscrita en Registro Mercantil de Madrid, Tomo 37471, Libro 0, Folio 130, Sección 8, Hoja M667916.</td>
+            </tr>
+        </table>
+
+        <h2>2. CONDICIONES DE ACCESO Y USO</h2>
+        <p>Cualquier persona que acceda a la Web <a href="https://www.tuviajeprofesional.com/">https://www.tuviajeprofesional.com/</a> tiene la consideración de Usuario. El Usuario se compromete a utilizar la página Web y aquellos servicios puestos a su disposición a través de la misma, de manera acorde a la Ley, moral, buenas costumbres y orden público, así como con lo dispuesto en el presente clausulado. En consecuencia, queda obligado a no utilizar la Web con fines o efectos ilícitos y/o contrarios a lo establecido, lesivos de derechos y/o intereses de terceros o que, de cualquier forma, puedan dañar la Web o impedir su normal uso, o de los servicios accesibles a través de la misma.</p>
+        
+        <p>La utilización de la Web y/o de sus Servicios, supondrá la aceptación plena y sin reservas, y la validez, de todas y cada una de las cláusulas recogidas en la última versión actualizada de este Aviso Legal, por lo que el Usuario deberá ser consciente de la importancia de leerlas cada vez que visite la Web.</p>
+
+        <h2>3. MAYORIA DE EDAD</h2>
+        <p>Usted debe tener la edad legal querida en su país para usar los servicios ofrecidos por el Titular. Si reside en un país que no pertenezca a la Región europea, debe tener al menos 13 años de edad para usar el sitio Web o la mayoría de edad que se requiera su país para registrarse en el sitio Web o utilizarlo.</p>
+        
+        <p>Además de tener la edad mínima requerida para usar el sitio Web en virtud de la ley aplicable, si no tiene la edad suficiente para poder aceptar nuestras condiciones en su país, su padre, madre, o tutor deben aceptar nuestras condiciones en su nombre.</p>
+
+        <h2>4. PROPIEDAD INTELECTUAL</h2>
+        <p>A los efectos de preservar los posibles derechos de propiedad intelectual, en el caso de que cualquier usuario/a o un tercero/a considere que se ha producido una violación de sus legítimos derechos por la introducción de un determinado contenido en el Web, deberá notificar dicha circunstancia a PROMISING WOMEN indicando:</p>
+        
+        <ul>
+            <li>Datos personales de la persona interesada titular de los derechos presuntamente infringidos. Si la reclamación la presenta un tercero/a distinto de la persona interesada, deberá indicar la representación con la que actúa.</li>
+            <li>Indicación de los contenidos protegidos por los derechos de propiedad intelectual y su ubicación en el Web.</li>
+            <li>Acreditación de los citados derechos de propiedad intelectual.</li>
+            <li>Declaración expresa en la que el interesado se responsabiliza de la veracidad de las informaciones facilitadas en la notificación.</li>
+        </ul>
+        
+        <p>La marca <a href="https://www.tuviajeprofesional.com/">tuviajeprofesional</a>, su dominio y la correspondiente marca gráfica es marca registrada y queda prohibida su reproducción o uso sin la autorización de su titular.</p>
+        
+        <p>La legitimidad de los derechos de propiedad intelectual o industrial correspondientes a los contenidos aportados por terceros/as es de la exclusiva responsabilidad de los/las mismos/as.</p>
+
+        <h2>5. CONTENIDOS</h2>
+        <p>El Titular ha obtenido la información, el contenido multimedia y los materiales incluidos en el sitio Web de fuentes que considera fiables, pero, si bien ha tomado todas las medidas razonables para asegurar que la información contenida es correcta, el Titular no garantiza que sea exacta, completa o actualizada. El Titular declina expresamente cualquier responsabilidad por error u omisión en la información contenida en las páginas de este sitio Web.</p>
+        
+        <p>Queda prohibido transmitir o enviar a través del sitio Web cualquier contenido ilegal o ilícito, virus informáticos, o mensajes que, en general, afecten o violen derechos de el Titular o de terceros.</p>
+        
+        <p>Los contenidos del Sitio Web tienen únicamente una finalidad informativa y bajo ninguna circunstancia deben usarse ni considerarse como oferta de venta, solicitud de una oferta de compra ni recomendación para realizar cualquier otra operación, salvo que así se indique expresamente.</p>
+        
+        <p>El Titular se reserva el derecho a modificar, suspender, cancelar o restringir el contenido del Sitio Web, los vínculos o la información obtenida a través del sitio Web, sin necesidad de previo aviso.</p>
+        
+        <p>El Titular no es responsable de los daños y perjuicios que pudieran derivarse de la utilización de la información del sitio Web o de la contenida en las redes sociales del Titular.</p>
+
+        <h2>6. DATOS PERSONALES Y POLÍTICA DE COOKIES</h2>
+        <p>Usted puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de la <a href="https://www.promisingwomen.com/index.php/politica-de-privacidad/">Política de Privacidad</a>. [corregir enlace]</p>
+        
+        <p>En la página <a href="https://www.promisingwomen.com/index.php/cookies-policy/">Política de Cookies</a> [corregir enlace] puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies.</p>
+
+        <h2>7. ENLACES DE INTERÉS A OTROS SITIOS WEB</h2>
+        <p>El Titular puede proporcionarle acceso a sitios Web de terceros mediante enlaces con la finalidad de informar sobre la existencia de otras fuentes de información en Internet en las que podrá ampliar los datos ofrecidos en el sitio Web.</p>
+        
+        <p>Estos enlaces a otros sitios Web no suponen en ningún caso una sugerencia o recomendación para que usted visite las páginas web de destino, que están fuera del control del Titular, por lo que Titular no es responsable del contenido de los sitios web vinculados ni del resultado que obtenga al seguir los enlaces.</p>
+        
+        <p>Asimismo, el Titular no responde de los links o enlaces ubicados en los sitios web vinculados a los que le proporciona acceso.</p>
+        
+        <p>El establecimiento del enlace no implica en ningún caso la existencia de relaciones entre Titular y el propietario del sitio en el que se establezca el enlace, ni la aceptación o aprobación por parte del Titular de sus contenidos o servicios.</p>
+        
+        <p>Si accede a un sitio Web externo desde un enlace que encuentre en el Sitio Web usted deberá leer la propia política de privacidad del otro sitio web que puede ser diferente de la de este sitio Web.</p>
+
+        <h2>8. LIMITACIÓN DE RESPONSABILIDAD</h2>
+        <p>La información y servicios incluidos o disponibles a través de este sitio Web pueden incluir incorrecciones o errores tipográficos. De forma periódica el Titular incorpora mejoras y/o cambios a la información contenida y/o los Servicios que puede introducir en cualquier momento.</p>
+        
+        <p>El Titular no declara ni garantiza que los servicios o contenidos sean interrumpidos o que estén libres de errores, que los defectos sean corregidos, o que el servicio o el servidor que lo pone a disposición estén libres de virus u otros componentes nocivos sin perjuicio de que el Titular realiza todos los esfuerzos en evitar este tipo de incidentes. El Titular declina cualquier responsabilidad en caso de que existan interrupciones o un mal funcionamiento de los Servicios o contenidos ofrecidos en Internet, cualquiera que sea su causa. Asimismo, el Titular no se hace responsable por caídas de la red, pérdidas de negocio a consecuencia de dichas caídas, suspensiones temporales de fluido eléctrico o cualquier otro tipo de daño indirecto que te pueda ser causado por causas ajenas a el Titular.</p>
+        
+        <p>Antes de tomar decisiones y/o acciones con base a la información incluida en el sitio Web, el Titular le recomienda comprobar y contrastar la información recibida con otras fuentes.</p>
+
+        <h2>9. CONDICIONES DE VENTA</h2>
+        <p>En caso de que un usuario o potencial cliente esté interesado en los servicios de Promising Women, deberá contactar con nosotros a través de los formularios de contacto de cada servicio puestos a su disposición.</p>
+        
+        <p>Una vez confirmada su inscripción a un evento, formación o servicio, se procederá al cobro correspondiente a través de medios de pago comúnmente aceptados.</p>
+        
+        <p>Una vez realizado el pago aplicarán las Condiciones de Cancelación descritas en la web <a href="https://www.tuviajeprofesional.com/">https://www.tuviajeprofesional.com/</a>.</p>
+
+        <h2>10. JURISDICCIÓN</h2>
+        <p>Este Aviso Legal se rige íntegramente por la legislación española.</p>
+        
+        <p>Siempre que no haya una norma que obligue a otra cosa, para cuantas cuestiones se susciten sobre la interpretación, aplicación y cumplimiento de este Aviso Legal, así como de las reclamaciones que puedan derivarse de su uso, las partes acuerdan someterse a los Jueces y Tribunales de la provincia de MADRID, con renuncia expresa de cualquier otra jurisdicción que pudiera corresponderles.</p>
+
+        <p><em>Última actualización abril 2025</em></p>
+      </div>
+      <div class="flex justify-center"><a class="text-xl transform transition bg-[#f7ead9] hover:bg-[#e4c6a6] hover:scale-105 text-[#4D2E1E] border border-[#4D2E1E] font-bold py-4 px-8 rounded-3xl" onclick="legalDialog.close();">Cerrar</a></div>
+  </dialog>
+
+  <dialog class="p-8 max-md:p-4 m-auto rounded-2xl max-w-9/12 max-h-10/12 max-md:max-w-11/12" id="cookieDialog">
+    <div style="display: flex;"><button class="ml-auto close-button" style="font-size: 3rem;" onclick="cookieDialog.close();">x</button></div>
+ <!-- Main Content: Política de Cookies -->
+    <div class="pb-8 container mx-auto legal">
+      <h1 class="text-xl">Política de Cookies</h1>
+        <p>En cumplimiento de la Ley 34/2002 de Servicios de la Sociedad de la
+        Información y del Comercio Electrónico (LSSICE), se informa de los
+        siguientes aspectos legales de la Web:</p>
+
+        <table>
+            <tr>
+                <td>Web:</td>
+                <td><strong><a href="https://www.tuviajeprofesional.com">https://www.tuviajeprofesional.com</a></strong></td>
+            </tr>
+            <tr>
+                <td>Titular:</td>
+                <td>Promising Women, S.L. (en adelante <strong>PROMISING WOMEN</strong>)</td>
+            </tr>
+            <tr>
+                <td>Domicilio:</td>
+                <td>C/San Enrique de Ossó, 8, Madrid 28055.</td>
+            </tr>
+            <tr>
+                <td>C.I.F:</td>
+                <td>B88014188</td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td>+34 91 6255144</td>
+            </tr>
+            <tr>
+                <td>Correo electrónico:</td>
+                <td><a href="mailto:info@promisingwomen.com">info@promisingwomen.com</a></td>
+            </tr>
+            <tr>
+                <td>Datos registrales</td>
+                <td>Inscrita en Registro Mercantil de Madrid, Tomo 37471, Libro 0, Folio 130, Sección 8, Hoja M667916.</td>
+            </tr>
+        </table>
+
+        <p><strong>PROMISING WOMEN</strong> puede recopilar información sobre los hábitos de
+        búsqueda de los usuarios del sitio web por medio de cookies o archivos
+        de registro. No se utilizarán las cookies para recoger información de
+        carácter personal. Solamente se instalarán si el Usuario permanece y
+        continúa navegando en nuestra página web, entendiendo que consiente su
+        uso e instalación. A continuación, proporcionamos información detallada
+        sobre: qué son las "cookies", qué tipología utiliza este sitio web, cómo
+        pueden desactivarlas en el navegador y cómo bloquear específicamente la
+        instalación de Cookies de terceros.</p>
+
+        <h2><strong>¿Qué son las cookies?</strong></h2>
+
+        <p>Las cookies son pequeños archivos de texto generados por las páginas web
+        que el Usuario visita, las cuales contienen los datos de sesión que
+        pueden ser de utilidad más adelante en la página web. Los datos permiten
+        que la página web pueda mantener su información entre las páginas, y
+        también para analizar la forma de interactuar con el sitio.</p>
+
+        <p>Las cookies son seguras ya que sólo pueden almacenar la información que
+        se puso en su lugar por el navegador, la información que el Usuario
+        hubiera introducido en el navegador o la que se incluye en la solicitud
+        de página. No pueden ejecutar código y no se pueden utilizar para
+        acceder al equipo del Usuario.</p>
+
+        <p>Las cookies son esenciales para el funcionamiento de Internet, aportando
+        innumerables ventajas en la prestación de servicios interactivos,
+        facilitando la navegación y usabilidad de las páginas web. Las cookies
+        no pueden dañar los equipos y que estén activadas ayuda a identificar y
+        resolver los errores.</p>
+
+        <h2><strong>Tipos de cookies</strong></h2>
+
+        <p>A continuación, proporcionamos más información para que se entiendan
+        mejor los diferentes tipos de cookies que pueden ser utilizados:</p>
+
+        <table>
+            <tr>
+                <th><strong>Según titularidad</strong></th>
+                <th><strong>Descripción</strong></th>
+            </tr>
+            <tr>
+                <td>Cookies Propias</td>
+                <td>Son las que se generan por la propia página web que estamos visitando. Pueden ser muy variadas y generalmente se utilizan para mejorar la experiencia del usuario al entrar en una página.</td>
+            </tr>
+            <tr>
+                <td>Cookies de terceros</td>
+                <td>Son las generadas por servicios o proveedores externos a la web. Pueden ser muy variadas y recopilan datos estadísticos, de uso, recopila gustos de los usuarios, etc.</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th><strong>Según su finalidad</strong></th>
+                <th><strong>Descripción</strong></th>
+            </tr>
+            <tr>
+                <td>Cookies técnicas</td>
+                <td>Las cookies técnicas son aquellas imprescindibles y estrictamente necesarias para el correcto funcionamiento de un portal web y la utilización de las diferentes opciones y servicios que ofrece.<br><br>Por ejemplo, las que sirven para el mantenimiento de la sesión, la gestión del tiempo de respuesta, rendimiento, etc.</td>
+            </tr>
+            <tr>
+                <td>Cookies de personalización</td>
+                <td>Estas cookies permiten al usuario especificar o personalizar algunas características de las opciones generales de la página web, por ejemplo, definir el idioma, configuración regional o tipo de navegador.</td>
+            </tr>
+            <tr>
+                <td>Cookies analíticas</td>
+                <td>Las cookies analíticas son las utilizadas por los portales web para elaborar perfiles de navegación y poder conocer las preferencias de los usuarios.<br><br>Por ejemplo, mediante una cookie analítica se puede controlar las áreas geográficas de mayor interés de un usuario, el producto con más éxito, etc.</td>
+            </tr>
+            <tr>
+                <td>Cookies publicitarias / de publicidad</td>
+                <td>Las cookies publicitarias permiten la gestión de los espacios publicitarios sobre la base de criterios concretos como la frecuencia de acceso, el contenido editado, etc.<br><br>Las cookies de publicidad permiten a través de la gestión de la publicidad almacenar información del comportamiento a través de la observación de hábitos, estudiando los accesos y formando un perfil de preferencias del usuario, para ofrecer publicidad relacionada con los intereses de su perfil.</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th><strong>Según plazo</strong></th>
+                <th><strong>Descripción</strong></th>
+            </tr>
+            <tr>
+                <td>Cookies de sesión</td>
+                <td>Las cookies de sesión son aquellas que duran el tiempo que el usuario está navegando por la página web y se borran al final de la misma.</td>
+            </tr>
+            <tr>
+                <td>Cookies persistentes</td>
+                <td>Estas cookies quedan almacenadas en el terminal del usuario, por un tiempo más largo, facilitando así el control de preferencias elegidas sin haber de repetir ciertos parámetros cada vez que se visite el sitio web.</td>
+            </tr>
+        </table>
+
+        <h2><strong>Relación y descripción de 'cookies'</strong></h2>
+
+        <p>La tabla que publicamos a continuación recoge de forma esquematizada las cookies anteriormente descritas y utilizadas en nuestra página web:</p>
+
+        <h3><strong>Cookies propias y de terceros:</strong></h3>
+
+        <table>
+            <tr>
+                <th><strong>Dominio</strong></th>
+                <th><strong>Nombre</strong></th>
+                <th><strong>Duración</strong></th>
+                <th><strong>Propósito</strong></th>
+                <th><strong>Tipo</strong></th>
+            </tr>
+            <tr>
+                <td rowspan="10"><strong>.tuviajeprofesional.com/</strong></td>
+                <td>viewed_cookie_policy</td>
+                <td>1 año</td>
+                <td>Cookies de uso interno necesaria para el funcionamiento de la visualización de la política de cookies de la web.</td>
+                <td>Técnica</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-non-necessary</td>
+                <td>11 meses</td>
+                <td>Establecida por el Plugin GDPR Cookie Consent. Se emplea para recordar el consentimiento del usuario de las cookies categorizadas como «No necesarias».</td>
+                <td>Técnica</td>
+            </tr>
+            <tr>
+                <td>CookieLawInfoConsent</td>
+                <td>1 año</td>
+                <td>Cookie gestionada por el complemento de consentimiento de cookies de GDPR y se utiliza para almacenar el estado de consentimiento de cookies del usuario.</td>
+                <td>Técnica</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-necessary</td>
+                <td>1 meses</td>
+                <td>Establecida por el Plugin GDPR Cookie Consent. Se emplea para recordar el consentimiento del usuario de las cookies categorizadas como «Necesarias».</td>
+                <td>Técnica</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-others</td>
+                <td>11 meses</td>
+                <td>Esta cookie está configurada por el complemento de consentimiento de cookies de GDPR. La cookie se utiliza para almacenar el consentimiento del usuario para las cookies en la categoría "Otro".</td>
+                <td>Necesaria</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-advertisement</td>
+                <td>1 año</td>
+                <td>La cookie se establece mediante el consentimiento de cookies de GDPR para registrar el consentimiento del usuario para las cookies en la categoría "Publicidad".</td>
+                <td>Necesaria</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-analytics</td>
+                <td>11 meses</td>
+                <td>Esta cookie está configurada por el complemento de consentimiento de cookies de GDPR. La cookie se utiliza para almacenar el consentimiento del usuario para las cookies en la categoría "Análisis".</td>
+                <td>Necesaria</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-functional</td>
+                <td>11 meses</td>
+                <td>La cookie está configurada por el consentimiento de cookies GDPR para registrar el consentimiento del usuario para las cookies en la categoría "Funcional".</td>
+                <td>Necesaria</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-performance</td>
+                <td>11 meses</td>
+                <td>Esta cookie está configurada por el complemento de consentimiento de cookies de GDPR. La cookie se utiliza para almacenar el consentimiento del usuario para las cookies en la categoría "Rendimiento".</td>
+                <td>Necesaria</td>
+            </tr>
+            <tr>
+                <td>cookielawinfo-checkbox-necessary</td>
+                <td>11 meses</td>
+                <td>Esta cookie está configurada por el complemento de consentimiento de cookies de GDPR. Las cookies se utilizan para almacenar el consentimiento del usuario para las cookies en la categoría "Necesarias".</td>
+                <td>Necesaria</td>
+            </tr>
+            <tr>
+                <td rowspan="3"><strong>.google.com</strong></td>
+                <td>_ga</td>
+                <td>2 años</td>
+                <td>Esta cookie es instalada por Google Analytics. La cookie se utiliza para calcular los datos de visitantes, sesiones y campañas y realizar un seguimiento del uso del sitio para el informe de análisis del sitio. Las cookies almacenan información de forma anónima y asignan un número generado aleatoriamente para identificar visitantes únicos.</td>
+                <td>Analítica</td>
+            </tr>
+            <tr>
+                <td>_gid</td>
+                <td>1 día</td>
+                <td>Esta cookie es instalada por Google Analytics. La cookie se utiliza para almacenar información sobre cómo los visitantes usan un sitio web y ayuda a crear un informe analítico de cómo está funcionando el sitio web. Los datos recopilados, incluido el número de visitantes, la fuente de donde provienen y las páginas, se muestran de forma anónima.</td>
+                <td>Analítica</td>
+            </tr>
+            <tr>
+                <td>_gat_gtag_UA_121081150_1</td>
+                <td>1 minuto</td>
+                <td>Google Universal Analytics instala estas cookies para acelerar la tasa de solicitud y limitar la recopilación de datos en sitios de alto tráfico.</td>
+                <td>Rendimiento</td>
+            </tr>
+        </table>
+
+        <h2><strong>Más información de las Cookies de Google:</strong></h2>
+
+        <p>Utilizamos el sistema Google Analytics (herramienta de Google para la
+        medición del tráfico de las Páginas Web), el cual puede almacenar
+        cookies en su ordenador para ayudarnos a recopilar información que será
+        utilizada únicamente con fines estadísticos y de estudio del
+        comportamiento de los usuarios de nuestro sitio web. La información que
+        recopila la cookie (incluida la IP) es almacenada y transmitida hacia
+        los servidores de Google en Estados Unidos. Google utilizará dichos
+        datos para recopilar su actividad en nuestro sitio y generar informes
+        con el propósito de identificar el uso que hace del sitio. Google podrá
+        proporcionar dicha información a terceros cuando así lo requiera la
+        legislación vigente. La aceptación de esta política supone la aceptación
+        del uso por parte de Google de la información recogida por Google
+        Analytics. (Ejemplos de estas cookies: <em>__utma,</em> <em>__utmb, __utmc,
+        __utmz, __utmv, __utmt, _ga, _gid, _gat,</em> etc.).</p>
+
+        <h2><strong>Consentimiento.</strong></h2>
+
+        <p>El usuario tendrá que aceptar de manera explícita y activa el uso de las
+        cookies antes anunciadas, por los periodos señalados anteriormente y en
+        las condiciones contenidas en la presente Política de Cookies.</p>
+
+        <h2><strong>Retirada del Consentimiento.</strong></h2>
+
+        <p>El usuario podrá retirar en cualquier momento su consentimiento
+        relacionado con esta Política de Cookies. Para eso habrá de eliminar las
+        cookies almacenadas en su equipo utilizando los ajustes y
+        configuraciones de su navegador de internet.</p>
+
+        <h2><strong>Derechos del interesado.</strong></h2>
+
+        <p>La mayoría de las cookies recopilan información anónima, que no permite
+        obtener la identidad del usuario, si bien algunos de los códigos que se
+        incluyen sirven para singularizar o individualizar al navegador de su
+        dispositivo utilizado, pudiendo ser de aplicación la normativa en
+        materia de protección de datos personales. Por ello, le informamos de
+        que la información que se obtiene por medio de las cookies, será tratada
+        con las finalidades indicadas en la presente Política de Cookies.
+        Asimismo, está información también será tratada por aquellas empresas
+        que proveen cookies con las finalidades indicadas en sus respectivas
+        políticas de privacidad.</p>
+
+        <p>No obstante, teniendo en cuenta que estos códigos no permiten la
+        identificación del Usuario, no serán aplicables los derechos de acceso,
+        rectificación, supresión, oposición, limitación y portabilidad
+        reconocidos en la normativa de protección de datos, salvo que el Usuario
+        sea capaz de aportar información adicional que permita vincular su
+        identidad con los códigos identificativos de sus cookies.</p>
+
+        <p>En caso de considerar vulnerado su derecho a la protección de datos, el
+        usuario podrá interponer una reclamación ante la Agencia Española de
+        Protección de Datos (<a href="http://www.aepd.es">www.aepd.es</a>) o ante nuestro Delegado de Protección
+        de Datos/ responsable de protección de datos en el siguiente e-mail
+        (<a href="mailto:info@promisingwomen.com">info@promisingwomen.com</a>).</p>
+
+        <p>Por otro lado, le informamos de que algunos de nuestros proveedores,
+        socios y colaboradores pueden estar ubicados en Estados Unidos u otros
+        países cuya legislación no ofrece un nivel de protección de datos
+        equivalente al europeo. Al consentir el uso de cookies y la compartición
+        de datos, consiente la transferencia de sus datos personales. El uso más
+        importante en este aspecto es la gestión del formulario online en
+        nuestra web a través de Google Forms.</p>
+
+        <h2><strong>Gestión de cookies: Garantías complementarias.</strong></h2>
+
+        <p>Todos los navegadores de Internet permiten limitar el comportamiento de
+        una cookie o desactivar las cookies dentro de la configuración o las
+        opciones del navegador. Los pasos para hacerlo son diferentes para cada
+        navegador, pudiéndose encontrar instrucciones en el menú de ayuda de
+        cada navegador.</p>
+
+        <p>Muchos navegadores permiten activar un modo privado mediante el cual las
+        cookies se borran siempre después de la visita. Dependiendo de cada
+        navegador este modo privado, puede tener diferentes nombres. A
+        continuación, se puede encontrar una lista de los navegadores más
+        comunes con un enlace a la configuración de cookies y los diferentes
+        nombres de este "modo privado":</p>
+
+        <ul>
+            <li><strong>Internet Explorer:</strong> <a href="http://windows.microsoft.com/es-xl/internet-explorer/delete-manage-cookies#ie=ie-11">http://windows.microsoft.com/es-xl/internet-explorer/delete-manage-cookies#ie=ie-11</a></li>
+            <li><strong>FireFox:</strong> <a href="https://support.mozilla.org/es/kb/Borrar%20cookies">https://support.mozilla.org/es/kb/Borrar%20cookies</a></li>
+            <li><strong>Chrome:</strong> <a href="https://support.google.com/chrome/answer/95647?hl=es">https://support.google.com/chrome/answer/95647?hl=es</a></li>
+            <li><strong>Safari:</strong> <a href="http://www.apple.com/legal/privacy/es/cookies/">http://www.apple.com/legal/privacy/es/cookies/</a></li>
+            <li><strong>Opera:</strong> <a href="https://help.opera.com/en/latest/security-and-privacy/">https://help.opera.com/en/latest/security-and-privacy/</a></li>
+            <li><strong>Safari para iOS (dispositivos iPhone y iPad):</strong> <a href="http://help.opera.com/Linux/10.50/en/cookies.html">http://help.opera.com/Linux/10.50/en/cookies.html</a></li>
+            <li><strong>Chrome para Android:</strong> <a href="https://support.google.com/chrome/answer/2392971?hl=es">https://support.google.com/chrome/answer/2392971?hl=es</a></li>
+            <li><strong>Windows Phone:</strong> <a href="http://www.windowsphone.com/es-es/how-to/wp7/web/changing-privacy-and-other-browser-">http://www.windowsphone.com/es-es/how-to/wp7/web/changing-privacy-and-other-browser-</a></li>
+        </ul>
+
+        <p>Para obtener más información sobre la eliminación, deshabilitación o
+        bloqueo de cookies también puede
+        visitar: <a href="http://www.aboutcookies.org/Default.aspx?page=2">http://www.aboutcookies.org/Default.aspx?page=2</a></p>
+
+        <p>En caso de que se deshabiliten las cookies, no podremos mantener sus
+        preferencias y algunas funcionalidades del Sitio Web podrían quedar
+        inoperativas, no pudiendo ofrecerle servicios personalizados.</p>
+
+        <h2><strong>Actualización de la política de cookies.</strong></h2>
+
+        <p>Este sitio web puede modificar esta Política sobre Cookies, por eso le
+        recomendamos revisar esta política cada vez que acceda a nuestro sitio
+        web para estar adecuadamente informado sobre el uso que hacemos de las
+        cookies.</p>
+
+        <p><em>Última actualización: abril 2025</em></p>  
+    </div>
+    <div class="flex justify-center"><a class="text-xl transform transition bg-[#f7ead9] hover:bg-[#e4c6a6] hover:scale-105 text-[#4D2E1E] border border-[#4D2E1E] font-bold py-4 px-8 rounded-3xl" onclick="cookieDialog.close();">Cerrar</a></div>
+  </dialog>
+
+    <script>
+      legalDialog.scrollTop = 0;
+      privacyDialog.scrollTop = 0;
+      cookieDialog.scrollTop = 0;
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+    </script>
+    <script>
+      document.querySelectorAll('.faq-question').forEach(function(button) {
+        button.addEventListener('click', function() {
+          const answer = this.nextElementSibling;
+          answer.classList.toggle('hidden');
+          const icon = this.querySelector('svg');
+          icon.classList.toggle('rotate-45');
+        });
+      });
+    </script>
+  </body>
+</html>
